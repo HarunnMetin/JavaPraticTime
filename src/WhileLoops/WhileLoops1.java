@@ -9,9 +9,6 @@ public class WhileLoops1 {
         yazdirin
          */
 
-
-
-
     }
 
 
