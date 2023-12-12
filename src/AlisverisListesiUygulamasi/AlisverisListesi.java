@@ -1,9 +1,11 @@
-package WhileLoops;
+package AlisverisListesiUygulamasi;
 
 import com.sun.tools.javac.Main;
 
-public class AlisverisListesi {
+import java.util.ArrayList;
+import java.util.List;
 
+public class AlisverisListesi {
 
     public static void main(String[] args) {
 
