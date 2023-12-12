@@ -1,19 +1,29 @@
 package StringManupulations;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class StringManupulationsQuestion1 {
 
     public static void main(String[] args) {
 
         /*
-        javada bir metin dizisi olusturun ve bu dizieki belirli bir karakteri diger bir karakterle degistiren
-        bir kod yazin.
-        input : J  output : T
+        Kullanıcıdan alınan bir cümledeki kelimelerin sırasını ters çeviren bir Java programı yazın.
          */
 
-        String metin = "Java Candir";
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("lutfen bir cumle giriniz");
+        String cumle = scanner.nextLine();
 
-        System.out.println(metin.replace("J", "T"));
+        metniTerseCevirme(cumle);
+    }
+    public static void metniTerseCevirme(String metin){
 
+        String[] metin2 = metin.split(" ");
+        for (int i = metin2.length-1; i >= 0 ; i--) {
+
+            System.out.print(metin2[i] + " ");
+        }
 
     }
 }
