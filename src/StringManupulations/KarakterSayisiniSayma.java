@@ -17,6 +17,7 @@ public class KarakterSayisiniSayma {
 
         karakterSayisiSayma(metin);
 
+
     }
 
     public static void karakterSayisiSayma (String metin){
