@@ -17,6 +17,7 @@ public class StringManupulationsQuestion1 {
 
         metniTerseCevirme(cumle);
     }
+
     public static void metniTerseCevirme(String metin){
 
         String[] metin2 = metin.split(" ");
@@ -24,6 +25,5 @@ public class StringManupulationsQuestion1 {
 
             System.out.print(metin2[i] + " ");
         }
-
     }
 }
