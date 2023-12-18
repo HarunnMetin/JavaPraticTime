@@ -17,6 +17,7 @@ public class SayilarinOrtalamsi {
         sayilar.add(11);
         sayilar.add(15);
         sayilar.add(19);
+        sayilar.add(19);
 
         int toplam = 0;
 
