@@ -9,6 +9,12 @@ public class WhileLoops1 {
         yazdirin
          */
 
+        int sayi = 14;
+
+        while (sayi < 100) {
+            System.out.println(sayi);
+            sayi += 7;
+        }
     }
 
 
